@@ -84,7 +84,7 @@ In conclusion, the linear model between *mpg* and *am + cyl + hp* fits well to a
 
 * Is an automatic or manual transmission better for MPG?
 
-As *b1* is **`r fit3$coefficients[2]`** and its p-value is **`r summary(fit3)$coefficients[2,4]`** we reject the null hypothesis (*b1* = 0). So we can conclude that manual transmission is statistical significant better than automatic transmission for fuel efficiency (mpg).
+As *b1* is **`r fit3$coefficients[2]`** and its p-value is **`r summary(fit3)$coefficients[2,4]`** which is much less than 0.05 we reject the null hypothesis (*b1* = 0). So we can conclude that manual transmission is statistical significant better than automatic transmission for fuel efficiency (mpg).
 
 * Quantify the MPG difference between automatic and manual transmissions
 
